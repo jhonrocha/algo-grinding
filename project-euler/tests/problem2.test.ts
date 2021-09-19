@@ -1,4 +1,4 @@
-import { main } from '../problem2';
+import { main } from '../src/problem2';
 
 describe('Testing Problem', () => {
   test('Validate it works', () => {
