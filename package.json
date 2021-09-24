@@ -1,15 +1,17 @@
 {
-  "name": "euler",
+  "name": "coding-flex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest && ava"
   },
-  "author": "",
+  "type": "module",
+  "author": "Jhon Rocha",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.0.1",
+    "ava": "^3.15.0",
     "jest": "^27.2.0",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"

@@ -1,9 +1,8 @@
-import { solution } from '../cyclic_rotation.js';
+import { solution } from "../cyclic_rotation.js";
+import test from "ava";
 
-describe('Running tests', () => {
-  test('Validations', () => {
-    let A = [3, 8, 9, 7, 6];
-    let K = 3;
-    expect(solution(A, K)).toBe([9, 7, 6, 3, 8]);
-  });
+test("Validations", (t) => {
+  let A = [3, 8, 9, 7, 6];
+  let K = 3;
+  t.deepEqual(solution(A, K), [9, 7, 6, 3, 8]);
 });
