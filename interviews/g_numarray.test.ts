@@ -9,9 +9,13 @@ Implement the NumArray class:
 - int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
 */
 class NumArray {
-  constructor(nums: number[]) {}
+  nums: number[] | null;
+  constructor(nums: number[]) {
+    this.nums = nums;
+  }
 
-  update(index: number, val: number): void {}
+  update(index: number, val: number): void {
+  }
 
   sumRange(left: number, right: number): number {}
 }
