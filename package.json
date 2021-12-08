@@ -10,7 +10,7 @@
   "author": "Jhon Rocha",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^27.0.1",
+    "@types/jest": "^27.0.2",
     "ava": "^3.15.0",
     "jest": "^27.2.0",
     "ts-jest": "^27.0.5",
